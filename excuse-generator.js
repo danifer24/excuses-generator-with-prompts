@@ -37,3 +37,5 @@ const randomWhat = what[Math.floor(Math.random() * what.length)];
 const randomWhen = when[Math.floor(Math.random() * when.length)];
 
 const excuse = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}.`;
+
+console.log(excuse);
